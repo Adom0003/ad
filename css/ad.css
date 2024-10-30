@@ -1,0 +1,38 @@
+.container {
+    width: 336px; 
+    height: 280px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ .title {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+ }
+
+ .apples {
+    width: 336px; 
+    height: 280px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ }
+
+ .button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top:250px;
+    left: 236px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    line-height: 40px;
+ }
